@@ -46,6 +46,7 @@ header > h1 {
     font-family: var(--fonte-destaque);
     margin-bottom: 20px;
     font-size: 3em;
+    font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.541);
 }
 
@@ -95,7 +96,8 @@ main {
 main h1 {
     font-family: var(--fonte-android);
     color: var(--cor4);
-    font-size: 1.6em;
+    font-size: 1.8em;
+    font-weight: normal;
 }
 
 main p {
@@ -135,12 +137,29 @@ main img.pequeno {
     margin: auto;
 }
 
+div.video {
+    background-color: var(--cor4);
+    margin: 0px -30px 30px -30px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 58.2%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 main h2 {
     font-family: var(--fonte-android);
     color: var(--cor1);
     font-size: 1.3em;
     background-image: repeating-linear-gradient(to right, transparent -20%, var(--cor2), transparent);
     text-indent: 10px;
+    font-weight: normal;
 }
 
 footer {
